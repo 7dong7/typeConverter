@@ -11,7 +11,6 @@ import java.util.Locale;
 public class MyNumberFormatter implements Formatter<Number> {
                     // springframework.format.Formatter
                                         // Integer, int, Long, double
-
     @Override
     public Number parse(String text, Locale locale) throws ParseException {
         log.info("text={}, locale={}", text, locale);
